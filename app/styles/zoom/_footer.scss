@@ -1,0 +1,20 @@
+
+
+/* ====== Footer ====== */
+.footer {
+		border-top: 3px solid #f15a22;
+		background: $color-primary;
+		color: #FFF;
+		font-size: 0.75em;
+    padding: 15px 0;
+    a {
+			color:#FFF;
+    }
+		a: hover {
+			color: #F15A22;
+		}
+		.gray, .gray a {
+		    color: #8b8b8b;
+		    background-color: #0c2340
+		}
+}

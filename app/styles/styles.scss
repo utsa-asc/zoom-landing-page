@@ -1,0 +1,37 @@
+/*
+ * Template Name: Appkit Landing - Responsive Website Template for Developers
+ * Version: 2.1
+ * Author: Xiaoying Riley
+ * Twitter: @3rdwave_themes
+ * License: Creative Commons Attribution 3.0 License
+ * Website: https://themes.3rdwavemedia.com/
+*/
+
+//*************************** Theme Colours****************************/
+// Define theme colour scheme
+$color-primary: #0c2340;
+$text-color: #212529;
+$text-color-secondary: #0C2340;
+//lighten($text-color, 10%);
+$text-grey: lighten($text-color, 15%);
+$light-grey: #f1f1f1;
+$smoky-white: #eee;
+
+$divider: #f3f3f3;
+
+$color-green: #75c181;
+$color-blue: #58bbee;
+$color-orange: #F8A13F;
+$color-pink: #EA5395;
+$color-purple: #8A40A7;
+$color-yellow: #F2B542;
+
+//*************************** Theme Styles ****************************/
+// Import theme styles
+@import "zoom/mixins";
+@import "zoom/body";
+@import "zoom/hero";
+@import "zoom/footer";
+@import "zoom/about";
+@import "zoom/contact";
+@import "zoom/responsive";

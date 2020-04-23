@@ -1,0 +1,140 @@
+/*
+ * Template Name: Appkit Landing - Responsive Website Template for Developers
+ * Version: 2.1
+ * Author: Xiaoying Riley
+ * Twitter: @3rdwave_themes
+ * License: Creative Commons Attribution 3.0 License
+ * Website: https://themes.3rdwavemedia.com/
+*/
+body {
+  color: #434b53;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+nav.navbar {
+  background-color: #0c2340; }
+
+#logoFull {
+  width: 320px;
+  max-width: 320px; }
+
+.logo {
+  width: 110px !important;
+  max-width: 110px !important; }
+
+section#hero {
+  background-position: top;
+  background-image: url("../images/zoom-work.jpg") !important;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  vertical-align: top; }
+  section#hero div.row.first {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgba(0, 0, 0, 0.6); }
+  section#hero div.row.last {
+    padding-top: 120px;
+    padding-bottom: 80px; }
+  section#hero h2 {
+    color: #0c2340;
+    font-weight: bold;
+    font-size: 1.75em; }
+
+.zoom-logo {
+  width: 215px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem; }
+
+.hero-button {
+  width: 100% !important;
+  height: 55px !important;
+  cursor: pointer;
+  border: none;
+  background-color: #0c2340;
+  padding: 12px 16px;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  color: #fff; }
+
+/* ====== Footer ====== */
+.footer {
+  border-top: 3px solid #f15a22;
+  background: #0c2340;
+  color: #FFF;
+  font-size: 0.75em;
+  padding: 15px 0;
+  a: hover;
+    a-color: #F15A22; }
+  .footer a {
+    color: #FFF; }
+  .footer .gray, .footer .gray a {
+    color: #8b8b8b;
+    background-color: #0c2340; }
+
+/* ======= About Section ======= */
+.about-section .items-wrapper {
+  margin-bottom: 60px; }
+  .about-section .items-wrapper .figure-image {
+    width: 150px; }
+  .about-section .items-wrapper .figure-holder {
+    min-height: 170px;
+    margin-bottom: 15px;
+    vertical-align: bottom; }
+  .about-section .items-wrapper .item-inner {
+    padding: 30px; }
+  .about-section .items-wrapper .item-title {
+    color: #0c2340;
+    font-size: 2.25rem;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 15px; }
+  .about-section .items-wrapper .item-desc {
+    color: #0C2340; }
+    .about-section .items-wrapper .item-desc ul {
+      padding-left: 1.5rem; }
+
+/* ======= Contact Section ======= */
+.contact-section {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #EEEEEE; }
+  .contact-section .section-title {
+    margin: 0;
+    margin-bottom: 15px;
+    font-size: 36px;
+    font-weight: 300;
+    margin-bottom: 30px; }
+
+.contact-content {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-bottom: 60px; }
+
+/* utsa-max breakpoints for global header behavior */
+@media (max-width: 767.98px) {
+  section#hero .inner-logo img {
+    width: 250px; } }
+
+@media (min-width: 1200px) {
+  section#hero div.row.last {
+    padding-top: 160px;
+    padding-bottom: 160px; } }
+
+@media (max-width: 991.98px) {
+  section#hero .over-top {
+    margin-top: 0px; }
+  section#hero div.row.first {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 220px; }
+  section#hero div.row.last {
+    padding-bottom: 30px;
+    padding-top: 30px; } }
+
+@media (min-width: 992px) {
+  section#hero .over-top {
+    margin-top: -70px; } }

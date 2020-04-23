@@ -1,0 +1,105 @@
+// Colors
+//
+// Grayscale and brand colors for use across Bootstrap.
+$blue-dark:                   #0c2340;
+$utsa-blue:                   #0c2340;
+$blue-dark-alt:               #001641;
+$blue-dark-alt-2:             #0026AD;
+$blue-med:                    #002a5c;
+$blue-light:                  #0088dd;
+$orange:                      #f15a22;
+$utsa-orange:                 #f15a22;
+// accessible orange text
+$orange-dark:                 #d3430d;
+$orange-med:                  #f47321;
+$white:                       #fff;
+$gray:                        #cdcdcd;
+$dark-gray:                   #3f3f3f;
+//$gray-dark:                 #373a3c !default;
+//$gray:                      #55595c !default;
+//$gray-light:                #818a91 !default;
+//$gray-lighter:              #eceeef !default;
+//$gray-lightest:             #f7f7f9 !default;
+$brand-primary:               $utsa-blue;
+$primary:                      $utsa-blue;
+//$brand-success:             #5cb85c !default;
+//$brand-info:                #5bc0de !default;
+//$brand-warning:             #f0ad4e !default;
+//$brand-danger:              #d9534f !default;
+
+// Options
+//
+// Quickly modify global styling by enabling or disabling optional features.
+
+$enable-rounded:            false;
+$enable-shadows:            true;
+$enable-transitions:        true;
+
+// Links
+//
+// Style anchor elements.
+
+$link-color:                 #0275d3;
+$link-decoration:            none;
+$link-hover-color:           #014c8c;
+//darken($link-color, 15%) !default;
+$link-hover-decoration:      underline;
+
+
+// Grid breakpoints
+//
+// Define the minimum and maximum dimensions at which your layout will change,
+// adapting to different screen sizes, for use in media queries.
+/* utsa-max breakpoints for global header behavior */
+$utsa-max-xl: 1000px;
+$utsa-max-lg: 900px;
+$utsa-max-md: 876px;
+$utsa-max-sm: 700px;
+$utsa-max-xs: 575px;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 575px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+) ;
+
+// Grid containers
+//
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 980px,
+  xl: 1170px
+);
+
+// Typography
+//
+// Font, line-height, and color for body text, headings, and more.
+$font-size-h1:               2rem;
+$font-size-h2:               1.55rem;
+$font-size-h3:               1.25rem;
+$font-size-h4:               1.15rem;
+$font-size-h5:               1rem;
+$font-size-h6:               0.9rem;
+
+$border-radius:          0px;
+$border-radius-lg:       0px;
+$border-radius-sm:       0px;
+
+// Buttons
+$btn-primary-color:                $blue-dark;
+$btn-primary-bg:                   $blue-dark;
+$btn-primary-border:               $blue-dark;
+
+// Allows for customizing button radius independently from global border radius
+$btn-border-radius:                .2rem;
+// Navbar
+$navbar-border-radius:              $border-radius;
+$navbar-dark-hover-color:           $orange;
+$navbar-dark-color:                 rgba(255,255,255,1);
+// Modals
+
+// Padding applied to the modal body
+$modal-inner-padding:               1rem;

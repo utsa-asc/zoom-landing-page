@@ -1,0 +1,48 @@
+section#hero {
+    background-position: top;
+    background-image: url('../images/zoom-work.jpg')!important;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    vertical-align: top;
+
+    div.row.first {
+      padding-top:40px;
+      padding-bottom:40px;
+      background-color: rgba(0,0,0,.6);
+    }
+
+    div.row.last {
+      padding-top:120px;
+      padding-bottom:80px;
+    }
+
+
+    h2 {
+      color: #0c2340;
+      font-weight: bold;
+      font-size: 1.75em;
+    }
+}
+
+.zoom-logo {
+  width: 215px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+
+.hero-button {
+    width: 100%!important;
+    height: 55px!important;
+    cursor: pointer;
+    border: none;
+    background-color: #0c2340;
+    padding: 12px 16px;
+    margin-top: 10px!important;
+    margin-bottom: 10px!important;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+}

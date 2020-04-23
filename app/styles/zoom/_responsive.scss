@@ -1,0 +1,60 @@
+// Small devices (landscape phones, less than 768px)
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../variables";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+
+@include media-breakpoint-down(sm) {
+  section#hero {
+    .inner-logo img {
+      width: 250px;
+    }
+  }
+}
+
+@include media-breakpoint-up(xl) {
+  section#hero {
+    .hero-button {
+    }
+
+    div.row.last {
+      padding-top:160px;
+      padding-bottom:160px;
+    }
+  }
+}
+
+@include media-breakpoint-down(md) {
+  section#hero {
+    .over-top {
+      margin-top: 0px;
+    }
+
+    div.row.first {
+      padding-top:30px;
+      padding-bottom:30px;
+      margin-bottom:220px;
+    }
+
+    div.row.last {
+      padding-bottom:30px;
+      padding-top:30px;
+    }
+  }
+}
+
+@include media-breakpoint-down(lg) {
+  section#hero {
+    .inner-logo img {
+      //width: 350px!important;
+    }
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  section#hero {
+    .over-top {
+      margin-top: -70px;
+    }
+  }
+}
